@@ -28,5 +28,5 @@ jobs:
       with:
         app-name: 'slotappserviceblacker'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f3da245318384564b2f9b96a139aa720 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_7543bd331d264aceb33d7b7b99df7351 }}
         package: '${{ github.workspace }}/target/*.war'
